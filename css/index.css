@@ -8,15 +8,19 @@ a{
     color: gray;
 
 }
+.txtt{
+    font-size: 18px;
+}
 ul{
     list-style: none;
 }
 body{
-    font-family: 'Work Sans', sans-serif;
+    font-family: "Ubuntu", sans-serif;
 }
-p{
+p,span{
     color:#8d8d8d;
     font-weight: 200;
+    font-size: 14px;
 }
 html{
     scroll-behavior:smooth;
@@ -48,6 +52,7 @@ nav{
     padding-top: 2%;
     background-color: rgba(0, 0, 0, 0.137);
     position: static;
+    box-sizing: border-box;
 }
 nav ul{
     width: 40%;
@@ -63,6 +68,7 @@ nav a:hover{
     padding-left: 15px;
     padding-top: 12px;
     padding-bottom: 10px;
+    box-sizing: border-box;
 }
 .section1{
     background-image: url("img/panner.jpg");
@@ -84,6 +90,7 @@ nav a:hover{
     width: 30%;
     padding-top:45% ;
     padding-bottom:5% ;
+    box-sizing: border-box;
 }
 .section1 p{
     width: 75%;
@@ -97,6 +104,7 @@ nav a:hover{
 }
 .section2{
 padding-top: 7%;
+box-sizing: border-box;
 }
 .content1{
     width: 65%;
@@ -122,10 +130,7 @@ padding-top: 7%;
     display: block;
 }
 .con{
-    width: 78%;
-}
-.cards p{
-    color: black !important;
+    width: 70%;
 }
 .asidecon{
     margin-left: 10px;
@@ -147,16 +152,22 @@ aside{
 }
 .txt{
     margin-left: 10px;
+    font-size: 18px;
 }
 .contant1div1 img{
     width: 100%;
     height: 200px;
 }
-.contant1div1 h3,.contant1div1 p{
+.contant1div1 h5,.contant1div1 p{
     width: 100%;
     margin-top: 10px;
 }
-.contant1div2 h3,.contant1div2 p{
+.contant1div2 h5{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.contant1div2 p{
     width: 100%;
     margin-top: 10px;
 }
@@ -173,8 +184,10 @@ aside{
 .smallcard{
     margin-bottom: 10px;
 }
+
 .content2 p{
     margin-left: 10px;
+    margin-top: 10px;
     box-sizing: border-box;
 }
 .asidecon div{
@@ -207,10 +220,11 @@ width: 90%;
     text-align: center;
     margin-top: 20px;
 }
-.section3 h3{
+.section3 h5{
     color: white;
     width: 100%;
     padding-top: 50px;
+    font-size: 18px;
     padding-bottom: 20px;
 }
 .section3 p{
@@ -241,11 +255,15 @@ width: 90%;
     text-align: center;
 
 } 
-.section4 p,.section4 h3{
+.section4 p{
+    font-size: 14px;
     padding-top: 10px;
 }
+.section4 h5{
+    font-size: 18px;
+}
 .section4 img{
-height: 158px;
+height: 148px;
 }
 iframe{
     width: 100%;
@@ -282,10 +300,12 @@ button:hover{
     background-color: #161616;
     padding-top: 60px;
     padding-bottom: 50px;
+    box-sizing: border-box;
 }
-.section5 h1,.section5 h3{
+.section5 h1,.section5 h5{
     color: white;
     margin-bottom: 15px;
+    font-size: 18px;
 }
 .sec5div2 ul{
     margin-bottom: 25px;

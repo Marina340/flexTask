@@ -1,0 +1,117 @@
+@media (max-width:800px) {
+    .d-flex{
+        flex-wrap: wrap;
+    }
+    nav ul{
+        width: 100%;
+    }
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    .content1{
+     width: 100%;
+    }
+    .contant1div1{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .contant1div2{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .content2{
+        width: 100%;
+     }
+    .section3 .sec3div1,.section3 .sec3div2,.section3 .sec3div3{
+        width: 100%;
+        margin-top: 10px;
+     }
+     .image {
+        width: 35%;
+    }
+     .con{
+        width: 60%;
+     }
+     .c h5{
+        width: 60%;
+     }
+}
+@media (max-width:500px) {
+    .d-flex{
+        flex-wrap: wrap;
+    }
+    nav ul{
+        width: 100%;
+    }
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    .content1{
+     width: 100%;
+    }
+    .contant1div1{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .contant1div2{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .content2{
+        width: 100%;
+     }
+    .section3 .sec3div1,.section3 .sec3div2,.section3 .sec3div3{
+        width: 100%;
+        margin-top: 10px;
+     }
+     .image {
+        width: 35%;
+    }
+     .con{
+        width: 60%;
+     }
+     .c h5{
+        width: 60%;
+     }
+}
+@media (max-width:300px) {
+    .d-flex{
+        flex-wrap: wrap;
+    }
+    nav ul{
+        width: 100%;
+    }
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    .content1{
+     width: 100%;
+    }
+    .contant1div1{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .contant1div2{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .content2{
+        width: 100%;
+     }
+    .section3 .sec3div1,.section3 .sec3div2,.section3 .sec3div3{
+        width: 100%;
+        margin-top: 10px;
+     }
+     .image {
+        width: 35%;
+    }
+     .con{
+        width: 60%;
+     }
+     .c h5{
+        width: 60%;
+     }
+}
