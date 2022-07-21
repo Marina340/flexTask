@@ -1,3 +1,11 @@
+@media (max-width:1000px) {
+    .content1 ul{
+        width: 95%;
+    }
+    nav ul{
+        width: 80%;
+    }
+}
 @media (max-width:800px) {
     .d-flex{
         flex-wrap: wrap;
